@@ -1,0 +1,69 @@
+
+.mainContainer{
+	display: flex;
+	justify-content:space-around;
+    margin: 10px 20px;
+}
+
+.CountriesTable{
+	width:70%;
+}
+
+
+.layoutContainer .title{
+	text-align:center;
+}
+
+.CountriesTable .panel-heading{
+	display:flex;
+	flex-direction:column;
+}
+
+.CountriesTable .panel-body{
+	overflow:hidden;
+}
+
+.checkboxContainer{
+	display: flex;
+	width:100%;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+.checkboxContainer label input{
+	margin-left:10px;
+}
+
+.table img{
+	
+}
+
+.countryDetails{
+	width:25%;
+}
+
+.countryDetails .countryDetailsContainer{
+	list-style-type: none;
+	border:1px solid #ddd;
+	border-radius:5px;
+	padding:0;
+	padding-bottom:10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow:hidden;
+}
+
+.countryDetails .countryDetailsContainer > :not(:nth-child(1)){
+	margin-left:10px;
+}
+
+.countryDetails .countryDetailsContainer > li span:nth-child(1){
+	font-weight:bold;
+}
+
+.countryDetails img{
+	border-bottom:1px solid #ddd;
+	width:100%;
+}
+
+
+
